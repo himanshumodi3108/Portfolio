@@ -75,7 +75,7 @@ export default function App() {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <div className="mx-2 nav-items yo">
-                <a href="https://github.com/himanshumodi2001/" target="_blank">
+                <a href="https://github.com/himanshumodi3108/" target="_blank">
                   <i className="fa fa-github mx-2"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/" target="_blank">
@@ -283,7 +283,7 @@ export default function App() {
       </div>
       <footer>© 2024 &nbsp; Himanshu Kumar Modi <br /><br />
         <div className="mx-2 nav-items yo">
-          <a href="https://github.com/himanshumodi2001/" target="_blank">
+          <a href="https://github.com/himanshumodi3108/" target="_blank">
             <i className="fa fa-github mx-4"></i>
           </a>
           <a href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/" target="_blank">

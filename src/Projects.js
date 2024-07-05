@@ -15,7 +15,7 @@ export default function Projects() {
             </span>
           </div>{" "}
           <div>
-            <a className="repository-link d-flex flex-column " href="https://github.com/himanshumodi2001/CreatiSketch" target="_blank">GitHub Link</a>
+            <a className="repository-link d-flex flex-column " href="https://github.com/himanshumodi3108/CreatiSketch" target="_blank">GitHub Link</a>
           </div>
         </div>
         <div className="education-one my-4 justify-content-between d-flex flex-row">
@@ -29,7 +29,7 @@ export default function Projects() {
             </span>
           </div>{" "}
           <div>
-            <a className="repository-link d-flex flex-column" href="https://github.com/himanshumodi2001/Social-Sphere" target="_blank">GitHub Link</a>
+            <a className="repository-link d-flex flex-column" href="https://github.com/himanshumodi3108/Social-Sphere" target="_blank">GitHub Link</a>
           </div>
         </div>
         <div className="education-one my-4 justify-content-between d-flex flex-row">
@@ -85,7 +85,7 @@ export default function Projects() {
             </span>
           </div>{" "}
           <div>
-            <a className="repository-link d-flex flex-column py-1" href="https://github.com/himanshumodi2001/Myntra-clone-website" target="_blank">GitHub Link</a>
+            <a className="repository-link d-flex flex-column py-1" href="https://github.com/himanshumodi3108/Myntra-clone-website" target="_blank">GitHub Link</a>
           </div>
         </div>
       </div>
