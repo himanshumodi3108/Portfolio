@@ -1,0 +1,31 @@
+.certificate-name {
+    font-family: "Ubuntu";
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.issuing-authority {
+    font-family: 0.6rem;
+    font-weight: 800;
+    font-family: "Ubuntu";
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+.credential-link {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #1c1c1c;
+    padding: 10px 10px;
+    border: 3px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.credential-link:hover{
+    background-color: var(--standout-color);
+    color: blue;
+    font-weight: 800;
+    transform: translateY(-5px);
+    transition: all 0.1s ease-in-out;
+}
