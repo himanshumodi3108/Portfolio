@@ -46,7 +46,7 @@ export default function Projects() {
             <a className="repository-link d-flex flex-column" href="https://github.com/himanshumodi3108/BookishBliss" target="_blank">GitHub Link</a>
           </div>
         </div>
-        <div className="education-one my-4 justify-content-between d-flex flex-row">
+        {/*<div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
             <span className="project-name">
               StackStories{" "}
@@ -59,7 +59,7 @@ export default function Projects() {
           <div>
             <a className="repository-link d-flex flex-column" href="#" target="_blank">GitHub Link</a>
           </div>
-        </div>
+        </div>*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
             <span className="project-name">
