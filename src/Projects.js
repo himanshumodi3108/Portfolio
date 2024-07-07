@@ -43,7 +43,7 @@ export default function Projects() {
             </span>
           </div>{" "}
           <div>
-            <a className="repository-link d-flex flex-column" href="#" target="_blank">GitHub Link</a>
+            <a className="repository-link d-flex flex-column" href="https://github.com/himanshumodi3108/BookishBliss" target="_blank">GitHub Link</a>
           </div>
         </div>
         <div className="education-one my-4 justify-content-between d-flex flex-row">
