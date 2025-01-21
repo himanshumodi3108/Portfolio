@@ -5,11 +5,11 @@ export default function Programming() {
     const value = [
      {
         text: "Java",
-        percentage: 90
+        percentage: 95
     },
     {
         text: "Python",
-        percentage: 70
+        percentage: 75
     },
     {
         text: "Javascript",
@@ -21,11 +21,11 @@ export default function Programming() {
     },
     {
         text: "Next JS",
-        percentage: 65
+        percentage: 60
     },
     {
         text: "React JS",
-        percentage: 80
+        percentage: 75
     },
     {
         text: "HTML",
@@ -33,7 +33,7 @@ export default function Programming() {
     },
     {
         text: "CSS",
-        percentage: 80
+        percentage: 85
     },
     {
         text: "Node JS",
@@ -42,6 +42,14 @@ export default function Programming() {
     {
         text: "Tailwind CSS",
         percentage: 80
+    },
+    {
+        text: "SQL",
+        percentage: 90
+    },
+    {
+        text: "NoSQL",
+        percentage: 70
     }
 ];
     return ( 

@@ -11,12 +11,14 @@ export default function Work() {
             </div>
         </div>
         <div className="d-flex flex-column">
-            <span className="position">Summer Intern</span>
+            <span className="position">Summer Trainee</span>
             <span className="description-position">
                 <ul>
-                    <span><b>Tech used: React.Js, Tailwind CSS, Microsoft Powerpages</b></span>
-                    <li>Collaborated with the succeeding engineering team to develop an efficient query redressal portal of ONGC Rajahmundry asset, ensuring a smooth transition and knowledge transfer.</li>
-                    <li>Collaborated with the web designing team to design and develop the frontend of Intranet portal for Rajahmundry asset to improve user experience.</li>
+                    <span><b>Tech used: ReactJS, Tailwind CSS, Figma</b></span>
+                    <li>Developed an efficient query redressal portal using React.js, Tailwind CSS, enhancing user experience and accessibility.</li>
+                    <li>Collaborated with cross-functional teams to ensure seamless integration of frontend components with backend services.</li>
+                    <li>Implemented responsive UI designs using Figma, ensuring a smooth and engaging user experience.</li>
+                    <li>Assisted in building a secure and scalable intranet portal, following best practices for security and data protection.</li>
                 </ul>
             </span>
         </div>

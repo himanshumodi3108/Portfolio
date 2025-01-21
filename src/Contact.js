@@ -53,7 +53,7 @@ export default function Contact() {
                 ></dotlottie-player>
                 </div>
             </div>
-            <div className="col-lg-6 col-md-5 col-sm-12 my-auto">
+            <div className="col-lg-6 col-md-5 col-sm-12 my-auto mx-auto">
                 <form ref={form} className="d-flex flex-column card-contact-right" onSubmit={sendEmail}>
                     <div className="input-groups my-3 d-flex flex-column">
                         <label>Name</label>
@@ -63,7 +63,7 @@ export default function Contact() {
                                 setname(e.target.value);
                             }}
                             type="text" 
-                            placeholder="Enter your name" 
+                            placeholder="John Doe" 
                             className="input-group" 
                         />
                     </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                                 setemail(e.target.value);
                             }}
                             type="text" 
-                            placeholder="Enter your email" 
+                            placeholder="johndoe@abc.com" 
                             className="input-group" 
                         />
                     </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                             onChange={(e) => {
                                 setmessage(e.target.value);
                             }}
-                            placeholder="Enter your message" 
+                            placeholder="Message...." 
                             className="input-group" 
                             rows="2" 
                             cols="30" />

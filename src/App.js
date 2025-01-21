@@ -21,10 +21,10 @@ export default function App() {
       strings: [
         "Enthusiastic Dev 😎",
         "Full-Stack Developer💻",
-        "Data Science Enthusiast",
-        "MERN Stack Developer",
-        "AWS Cloud Practitioner",
-        "Data Analyst",
+        "Cyber Security Enthusiast 👨‍💻",
+        "MERN Stack Developer 💻",
+        "AWS Cloud Practitioner 👨‍💻",
+        "Data Analyst 💻",
       ],
       startDelay: 0,
       typeSpeed: 80,
@@ -112,25 +112,31 @@ export default function App() {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <div className="mx-2 nav-items yo">
-                <a href="https://github.com/himanshumodi3108/" target="_blank">
+                <a href="https://github.com/himanshumodi3108/" target="_blank" rel="noreferrer">
                   <i className="fa fa-github mx-2"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-linkedin mx-2"></i>
                 </a>
-                <a href="https://www.instagram.com/modi4520/" target="_blank">
+                <a href="https://www.instagram.com/modi4520/" target="_blank" rel="noreferrer">
                   <i className="fa fa-instagram mx-2"></i>
                 </a>
                 <a
                   href="https://www.facebook.com/himanshu.modi.35"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-facebook mx-2"></i>
                 </a>
-                <a href="https://x.com/Himansh93945818" target="_blank">
+                <a
+                  href="https://x.com/Himansh93945818"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-twitter mx-2"></i>
                 </a>
               </div>
@@ -146,8 +152,8 @@ export default function App() {
                 {/*Enthusiastic Dev 😎*/}
               </span>
               <span className="Im-text-subheading">
-                Knack of building Web applications with front and back end
-                operations
+                Skilled Full-Stack Developer with a passion for building scalable 
+                and secure web applications using modern frameworks and best coding practices.
               </span>
               <div className="d-flex flex-row justify-content-center mt-5">
                 <a href="#contactme" className="btn-hire-me">
@@ -155,8 +161,9 @@ export default function App() {
                 </a>
                 <a
                   className="btn-resume-me"
-                  href="https://drive.google.com/file/d/1uQJHYmlBP2Z9b8YsyZtVRak1QYiwxGdo/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1_eQQZjTy2TPRFpkH_eBIBppsD5vY_MdS/view?usp=sharing"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Get Resume
                 </a>
@@ -167,7 +174,7 @@ export default function App() {
             <div className="d-flex justify-content-center Anim">
               <img
                 className="img-fluid custom-img"
-                src="https://res.cloudinary.com/dnrel9myp/image/upload/f_auto,q_auto/v1/Portfolio/wp31sfgxlf6fgdrqkral"
+                src="https://res.cloudinary.com/dnrel9myp/image/upload/v1737456743/Portfolio/IMG-20241007-WA0125_copy_iwp2ih.jpg"
                 alt="Profile-pic"
               />
             </div>
@@ -200,16 +207,19 @@ export default function App() {
             </div>
             <div className="col-lg-6 cpl-md-6 col-sm-12 py-7 d-flex flex-column">
               <span className="some-text-about-me">
-                I'm Himanshu Kumar Modi, a Full-Stack Web Developer from the
-                dynamic state of Jharkhand, India, and I'm now doing my B. Tech
-                in Computer Science and Engineering with a specialization in
-                Information Security at Vellore Institute of Technology. My
-                passion for web development drives my work, and I'm always
-                looking for new methods to create novel digital experiences. I'm
-                ready to help if you have a project that requires a dedicated
-                developer with a strong eye for detail and a commitment to
-                perfection. Explore my resume area below, and let's go on a
-                journey to make your ideas a reality.
+              I'm Himanshu Kumar Modi, a passionate Full-Stack Web Developer from Jharkhand, India.
+              I'm currently pursuing a B.Tech in Computer Science and Engineering with specialization
+              in Information Security at Vellore Institute of Technology. 
+              My enthusiasm for web development fuels my drive to craft innovative digital solutions, 
+              and I am constantly exploring new technologies to enhance my skill set.
+              <br />
+              I am committed to delivering high-quality, detail-oriented solutions that align with 
+              client goals and industry best practices. Whether you need a dedicated developer to 
+              bring your vision to life or a collaborator with a strong problem-solving mindset, 
+              I am eager to contribute to your project's success.
+              <br />
+              Explore my resume below to learn more about my skills and experience. Let's collaborate to 
+              turn your ideas into impactful digital solutions.
               </span>
               <span className="few-highlights">
                 <span className="few-text">Here are few highlights</span>
@@ -217,9 +227,10 @@ export default function App() {
                   <ul>
                     <li>Full Stack Developer</li>
                     <li>MERN Stack Developer</li>
+                    <li>Cyber Security Enthusiast</li>
+                    <li>AWS CertifiedCloud Practitoner</li>
                     <li>Data Analyst</li>
                     <li>Machine Learning Enthusiast</li>
-                    <li>AWS Cloud Practitoner</li>
                   </ul>
                 </span>
               </span>
@@ -227,9 +238,9 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="resume-outer-section d-flex flex-column" id="resume">
-        <span className="about-me-text">Resume</span>
-        <span className="why-text-sub">My formal details</span>
+      <div className="resume-outer-section d-flex flex-column">
+        <span className="about-me-text" id="resume">Resume</span>
+        <span className="why-text-sub" >My formal details</span>
         <div
           className="resume-new-section row"
           style={{ width: "70%", marginInline: "auto" }}
@@ -324,10 +335,10 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="contact-me-part py-4" id="contactme">
-        <div className="relative-bg"></div>
+      <div className="contact-me-part">
+        {/* <div className="relative-bg"></div> */}
         <div className="contact-inner-part d-flex flex-column">
-          <span className="contact-me-text">Contact Me</span>
+          <span className="contact-me-text" id="contactme">Contact Me</span>
           <span className="touch-text mb-5">
             Get In Touch
             <span role="img" aria-label="Close">
@@ -337,30 +348,32 @@ export default function App() {
           <Contact />
         </div>
       </div>
-      <footer>
-        © 2024 &nbsp; Himanshu Kumar Modi <br />
-        <br />
-        <div className="mx-2 nav-items yo">
-          <a href="https://github.com/himanshumodi3108/" target="_blank">
+      <div className="footer-section d-flex flex-column">
+      <span className="footer-text-sub">
+        © 2025 &nbsp; Himanshu Kumar Modi 
+        </span>
+        <div className="mx-2 footer-nav-items yo">
+          <a href="https://github.com/himanshumodi3108/" target="_blank" rel="noreferrer">
             <i className="fa fa-github mx-4"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa fa-linkedin mx-4"></i>
           </a>
-          <a href="https://www.instagram.com/modi4520/" target="_blank">
+          <a href="https://www.instagram.com/modi4520/" target="_blank" rel="noreferrer">
             <i className="fa fa-instagram mx-4"></i>
           </a>
-          <a href="https://www.facebook.com/himanshu.modi.35" target="_blank">
+          <a href="https://www.facebook.com/himanshu.modi.35" target="_blank" rel="noreferrer">
             <i className="fa fa-facebook mx-4"></i>
           </a>
-          <a href="https://x.com/Himansh93945818" target="_blank">
+          <a href="https://x.com/Himansh93945818" target="_blank" rel="noreferrer">
             <i className="fa fa-twitter mx-4"></i>
           </a>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
