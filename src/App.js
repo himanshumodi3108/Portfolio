@@ -161,7 +161,7 @@ export default function App() {
                 </a>
                 <a
                   className="btn-resume-me"
-                  href="https://drive.google.com/file/d/1_eQQZjTy2TPRFpkH_eBIBppsD5vY_MdS/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1RCW237x2cfhO_Fn3qCmaqXHQS5S4v3Lp/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >

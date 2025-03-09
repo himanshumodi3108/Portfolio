@@ -28,6 +28,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+
         {/*Project 2*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
@@ -50,6 +51,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+
         {/*Project 3*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
@@ -72,6 +74,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+
         {/*Project 4*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
@@ -92,16 +95,17 @@ export default function Projects() {
             </a>
           </div>
         </div>
+
         {/*Project 5*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
             <span className="project-name">
-              Employee-Dashboard{" "}
+              HR Analytics Dashboard{" "}
               <span className="project-subtext">
-                Employee Performance Analysis Dashboard
+                A data-driven HR insights platform
               </span>
             </span>
-            <span className="tech-used">Tech Used: Power BI, Power Query </span>
+            <span className="tech-used">Tech Used: Power BI, Power Query, SQL </span>
           </div>{" "}
           <div>
             <a
@@ -114,6 +118,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+
         {/*Project 6*/}
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
@@ -127,6 +132,22 @@ export default function Projects() {
           </div>{" "}
           <div>
             <a className="repository-link d-flex flex-column py-1" href="https://github.com/himanshumodi3108/Myntra-clone-website" target="_blank" rel="noreferrer">GitHub Link</a>
+          </div>
+        </div>
+
+        {/*Project 7*/}
+        <div className="education-one my-4 justify-content-between d-flex flex-row">
+          <div className="d-flex flex-column new-one">
+            <span className="project-name">
+              TextCryptor{" "}
+              <span className="project-subtext">A Python-based text encoding tool</span>
+            </span>
+            <span className="tech-used">
+              Tech used: Python, Tkinter, Base64, MD5, SHA-256, AES{" "}
+            </span>
+          </div>{" "}
+          <div>
+            <a className="repository-link d-flex flex-column py-1" href="https://github.com/himanshumodi3108/TextCryptor" target="_blank" rel="noreferrer">GitHub Link</a>
           </div>
         </div>
         {/*<div className="education-one my-4 justify-content-between d-flex flex-row">
