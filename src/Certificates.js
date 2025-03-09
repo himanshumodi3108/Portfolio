@@ -59,6 +59,24 @@ export default function Certificates() {
         </div>
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           <div className="d-flex flex-column new-one">
+            <span className="certificate-name">
+              Certified in Cybersecurity (CC){" "}
+            </span>
+            <span className="issuing-authority">ISC2 </span>
+          </div>{" "}
+          <div>
+            <a
+              className="credential-link d-flex flex-column"
+              href="https://drive.google.com/file/d/1htXfECDdiFel1OHx1Zan7lxur28ujIqC/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Credential Link
+            </a>
+          </div>
+        </div>
+        <div className="education-one my-4 justify-content-between d-flex flex-row">
+          <div className="d-flex flex-column new-one">
             <span className="certificate-name">Google Data Analytics Certificate </span>
             <span className="issuing-authority">Coursera </span>
           </div>{" "}
