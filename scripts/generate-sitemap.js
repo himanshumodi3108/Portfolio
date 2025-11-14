@@ -81,6 +81,6 @@ urlPatterns.forEach(pattern => {
 
 fs.writeFileSync(indexHtmlPath, indexHtml);
 
-console.log(`✅ Generated sitemap.xml and robots.txt with URL: ${portfolioUrl}`);
-console.log(`✅ Updated index.html with portfolio URL: ${portfolioUrl}`);
+// console.log(`✅ Generated sitemap.xml and robots.txt with URL: ${portfolioUrl}`);
+// console.log(`✅ Updated index.html with portfolio URL: ${portfolioUrl}`);
 

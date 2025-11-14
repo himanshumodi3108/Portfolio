@@ -57,11 +57,11 @@ export default function Contact() {
         const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
         
         if (!serviceId || !templateId || !publicKey) {
-            console.error("EmailJS configuration missing:", {
-                serviceId: !!serviceId,
-                templateId: !!templateId,
-                publicKey: !!publicKey
-            });
+            // console.error("EmailJS configuration missing:", {
+            //     serviceId: !!serviceId,
+            //     templateId: !!templateId,
+            //     publicKey: !!publicKey
+            // });
             setSubmitStatus('error');
             showError("Email service is not configured. Please check environment variables.", 5000);
             return;
@@ -98,7 +98,7 @@ export default function Contact() {
                 }
             )
             .then(function(response){
-                console.log("SUCCESS!", response.status, response.text);
+                // console.log("SUCCESS!", response.status, response.text);
                 setSubmitStatus('success');
                 showSuccess(t('contact.success'), 5000);
                 setname("");
@@ -111,7 +111,7 @@ export default function Contact() {
                 setTimeout(() => setSubmitStatus(null), 5000);
             })
             .catch(function(error){
-                console.error("EmailJS Error:", error);
+                // console.error("EmailJS Error:", error);
                 let errorMessage = t('contact.error');
                 
                 // Provide more specific error messages
