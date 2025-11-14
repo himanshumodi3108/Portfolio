@@ -1,0 +1,125 @@
+.project-card {
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.project-name {
+    font-family: "Ubuntu";
+    color: #02203c;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.project-subtext {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    display: block;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.tech-used {
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: "Ubuntu";
+    color: #1c1c1c;
+    text-transform: uppercase;
+    margin-top: 12px;
+    letter-spacing: 0.5px;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.repository-link,
+.demo-link {
+    font-family: "Ubuntu";
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #02203c;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(
+        -45deg,
+        var(--primary-app-color),
+        var(--secondary-app-color)
+    );
+    min-width: 120px;
+    white-space: nowrap;
+}
+
+.repository-link:hover {
+    background: var(--standout-color);
+    color: #1c1c1c;
+    border-color: var(--standout-color);
+    font-weight: 700;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.demo-link {
+    background: transparent;
+    color: #02203c;
+    border-color: #02203c;
+}
+
+.demo-link:hover {
+    background: #02203c;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+    }
+    
+    .project-links {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .repository-link,
+    .demo-link {
+        flex: 1;
+        min-width: auto;
+    }
+    
+    .filter-btn {
+        font-size: 0.8rem;
+        padding: 6px 15px;
+    }
+    
+    .projects-filter-container {
+        padding: 15px 0;
+    }
+}

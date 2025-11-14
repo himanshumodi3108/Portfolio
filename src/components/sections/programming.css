@@ -1,0 +1,46 @@
+.progress-some{
+  background: red;
+  height: 20px;
+  width: 200px;
+}
+
+.progress-new{
+  background:black;
+  height:20px ;
+  width: 0%;
+  transition: width 1.5s ease-in-out;
+}
+
+.progress-new.animated {
+  width: var(--target-width, 0%);
+}
+
+.skill-item {
+  width: 100%;
+}
+
+.language{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  color: black;
+  text-transform: capitalize;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 786px) {
+  .language {
+    font-size: 1.1rem !important;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .progress-some {
+    width: 100% !important;
+    max-width: 100%;
+    height: 18px;
+  }
+  
+  .progress-new {
+    height: 18px;
+  }
+}

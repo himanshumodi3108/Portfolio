@@ -32,7 +32,7 @@ export const projects = [
       description: "An online book store with user authentication, shopping cart, payment integration, and order management system.",
       tech: "MERN Stack",
       github: "https://github.com/himanshumodi3108/BookishBliss",
-      demo: null,
+      demo: "https://bookish-bliss-six.vercel.app/",
     },
     {
       id: 5,

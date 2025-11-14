@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import "./contacts.css";
-import { useToast } from "./context/ToastContext";
+import { useToast } from "../../context/ToastContext";
 
 export default function Contact() {
     const { t } = useTranslation();

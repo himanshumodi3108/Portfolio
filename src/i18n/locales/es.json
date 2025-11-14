@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "resume": "Currículum",
+    "contact": "Contáctame",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "subtitle": "Desarrollador Full-Stack experimentado con pasión por construir aplicaciones web escalables y seguras utilizando frameworks modernos y mejores prácticas de codificación.",
+    "hireMe": "Contrátame",
+    "downloadResume": "Descargar Currículum"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "¿Por Qué Elegirme?",
+    "description": "Soy Himanshu Kumar Modi, un apasionado Desarrollador Web Full-Stack de Jharkhand, India. Actualmente estoy cursando un B.Tech en Ciencias de la Computación e Ingeniería con especialización en Seguridad de la Información en el Instituto de Tecnología de Vellore.",
+    "description2": "Estoy comprometido a entregar soluciones de alta calidad y orientadas a los detalles que se alineen con los objetivos del cliente y las mejores prácticas de la industria.",
+    "description3": "Explora mi currículum a continuación para conocer más sobre mis habilidades y experiencia.",
+    "highlights": "Aquí hay algunos aspectos destacados"
+  },
+  "resume": {
+    "title": "Currículum",
+    "subtitle": "Mis detalles formales"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Ponerse en Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "mobile": "Móvil",
+    "optional": "Opcional",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo Que Dicen Sobre Mí"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Últimos Artículos y Pensamientos",
+    "readMore": "Leer Más",
+    "seeMore": "Ver Más",
+    "seeLess": "Ver Menos"
+  },
+  "footer": {
+    "copyright": "© 2025 Himanshu Kumar Modi"
+  },
+  "social": {
+    "shareLabel": "Compartir Portafolio:"
+  }
+}
+

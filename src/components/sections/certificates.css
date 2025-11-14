@@ -1,0 +1,84 @@
+.certificate-name {
+    font-family: "Ubuntu";
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.issuing-authority {
+    font-family: 0.6rem;
+    font-weight: 800;
+    font-family: "Ubuntu";
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+.credential-link {
+    font-family: "Ubuntu";
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #02203c;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(
+        -45deg,
+        var(--primary-app-color),
+        var(--secondary-app-color)
+    );
+    min-width: 120px;
+}
+
+.credential-link:hover{
+    background: var(--standout-color);
+    color: #1c1c1c;
+    border-color: var(--standout-color);
+    font-weight: 700;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.education-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 15px 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 786px) {
+  .education-one {
+    flex-direction: column !important;
+    padding: 15px !important;
+    margin: 10px 0 !important;
+  }
+  
+  .certificate-name {
+    font-size: 1.1rem !important;
+    word-wrap: break-word;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  
+  .issuing-authority {
+    font-size: 0.85rem !important;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+  }
+  
+  .credential-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.85rem !important;
+    padding: 8px 15px !important;
+    width: auto;
+    min-width: auto;
+  }
+}

@@ -1,0 +1,117 @@
+.language-switcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  font-family: "Ubuntu";
+}
+
+.language-btn:hover {
+  background: var(--standout-color);
+  color: #1c1c1c;
+  border-color: var(--standout-color);
+}
+
+.current-lang {
+  font-size: 1.2rem;
+}
+
+.language-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  min-width: 150px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.language-dropdown:hover .language-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.language-option {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  font-family: "Ubuntu";
+  font-size: 0.95rem;
+  color: #1c1c1c;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0;
+}
+
+.language-option:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.language-option:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.language-option:hover {
+  background: #f0f0f0;
+}
+
+.language-option.active {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  color: #fff;
+}
+
+.lang-flag {
+  font-size: 1.2rem;
+}
+
+.lang-name {
+  font-weight: 500;
+}
+
+@media (max-width: 786px) {
+  .language-btn {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+  
+  .language-menu {
+    right: -10px;
+  }
+}
+

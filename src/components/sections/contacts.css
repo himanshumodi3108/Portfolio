@@ -1,0 +1,260 @@
+.contact-me-card{
+    background: #1c1c1c;
+    width: 80%;
+    box-shadow: 10px 10px 63px 4px rgb(243, 240, 240);
+    height: auto;
+    margin-inline: auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*top: 70px;*/
+}
+.get-in-touch{
+    color: #fff;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 2.3rem;
+    justify-content: center;
+}
+.input-group{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #000;
+}
+.input-groups{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #fff;
+}
+.card-contact-right{
+    background: #02203c;
+    box-shadow: 4px 4px 39px 1px rgb(243, 240, 240);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+label{
+    color: white;
+    text-align: left;
+}
+.btn-success:hover{
+    background-color: darkgreen;
+}
+.btn-success:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.required{
+    color: #ff4444;
+}
+.optional{
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.error-message{
+    color: #ff4444;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+}
+.input-error{
+    border: 2px solid #ff4444 !important;
+}
+.alert{
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.alert-success{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.alert-danger{
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.spinner-border-sm{
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
+.me-2{
+    margin-right: 0.5rem;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 786px) {
+    .contact-me-card{
+        width: 95% !important;
+        margin: 10px auto !important;
+        padding: 15px !important;
+    }
+    
+    .card-contact-right{
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 25px 20px !important;
+    }
+    
+    .get-in-touch{
+        font-size: 1.6rem !important;
+        margin: 10px 0 !important;
+    }
+    
+    .left-contact{
+        padding: 10px !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .left-contact dotlottie-player{
+        width: 180px !important;
+        max-width: 100%;
+        height: auto !important;
+    }
+    
+    .contact-me-card .row{
+        margin: 0 !important;
+    }
+    
+    .contact-me-card{
+        padding-bottom: 30px !important;
+    }
+    
+    .input-group{
+        font-size: 16px !important; /* Prevents zoom on iOS */
+        padding: 12px 10px !important;
+    }
+    
+    .input-groups{
+        margin: 8px 0 !important;
+    }
+    
+    .input-groups:last-child{
+        margin-top: 15px !important;
+        margin-bottom: 0 !important;
+    }
+    
+    label{
+        font-size: 0.9rem !important;
+        margin-bottom: 5px;
+    }
+    
+    .btn-success{
+        width: 100%;
+        padding: 12px !important;
+        font-size: 1rem !important;
+        margin-top: 10px !important;
+    }
+    
+    .alert{
+        font-size: 0.9rem !important;
+        padding: 10px 12px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    textarea.input-group{
+        min-height: 100px;
+        resize: vertical;
+    }
+    
+    form.card-contact-right{
+        gap: 0;
+    }
+}
+
+/* Email Copy Section */
+.email-copy-section {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.email-label {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.email-copy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.email-address {
+    color: #fff;
+    font-family: "Ubuntu";
+    font-size: 1rem;
+    word-break: break-all;
+}
+
+.copy-email-btn {
+    background: var(--standout-color);
+    color: #1c1c1c;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.copy-email-btn:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.copy-success-message {
+    color: var(--standout-color);
+    font-family: "Ubuntu";
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 5px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 786px) {
+    .email-copy-section {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    .email-address {
+        font-size: 0.9rem;
+    }
+}

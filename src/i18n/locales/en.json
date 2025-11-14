@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "resume": "Resume",
+    "contact": "Contact me",
+    "blog": "Blog"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "subtitle": "Skilled Full-Stack Developer with a passion for building scalable and secure web applications using modern frameworks and best coding practices.",
+    "hireMe": "Hire me",
+    "downloadResume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Why Choose Me?",
+    "description": "I'm Himanshu Kumar Modi, a passionate Full-Stack Web Developer from Jharkhand, India. I'm currently pursuing a B.Tech in Computer Science and Engineering with specialization in Information Security at Vellore Institute of Technology. My enthusiasm for web development fuels my drive to craft innovative digital solutions, and I am constantly exploring new technologies to enhance my skill set.",
+    "description2": "I am committed to delivering high-quality, detail-oriented solutions that align with client goals and industry best practices. Whether you need a dedicated developer to bring your vision to life or a collaborator with a strong problem-solving mindset, I am eager to contribute to your project's success.",
+    "description3": "Explore my resume below to learn more about my skills and experience. Let's collaborate to turn your ideas into impactful digital solutions.",
+    "highlights": "Here are few highlights"
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "My formal details"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Get In Touch",
+    "name": "Name",
+    "email": "Email",
+    "mobile": "Mobile",
+    "optional": "Optional",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "Failed to send message. Please try again later."
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What People Say About Me"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest Articles & Thoughts",
+    "readMore": "Read More",
+    "seeMore": "See More",
+    "seeLess": "See Less"
+  },
+  "footer": {
+    "copyright": "© 2025 Himanshu Kumar Modi"
+  },
+  "social": {
+    "shareLabel": "Share Portfolio:"
+  }
+}
+
