@@ -132,7 +132,7 @@ export default function Blog() {
             <p className="blog-excerpt">{post.excerpt}</p>
             <div className="blog-card-footer">
               <span className="blog-date">{post.date}</span>
-              <a href={post.link} className="blog-read-more" aria-label={`Read more about ${post.title}`}>
+              <a href={post.link} className="blog-read-more" aria-label={`Read more about ${post.title}`} target="_blank" rel="noopener noreferrer">
                 {t('blog.readMore')} <i className="fas fa-arrow-right"></i>
               </a>
             </div>

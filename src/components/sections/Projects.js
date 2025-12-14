@@ -58,6 +58,15 @@ export const projects = [
       github: "https://github.com/himanshumodi3108/TextCryptor",
       demo: null,
     },
+    {
+      id: 8,
+      name: "IntelliShieldX",
+      description: "A hybrid AI-powered security platform that scans files, URLs, repositories, and codebases to detect vulnerabilities using static analysis, threat intelligence, and LLM-based reasoning, with auto-remediation and downloadable security reports.",
+      tech: "React TypeScript, Node.js, Express.js, Python, RestAPI, LLMs",
+      github: "https://github.com/himanshumodi3108/IntelliShieldX-AI",
+      demo: "https://intelli-shield-x-ai.vercel.app/",
+    }
+
 ];
 
 export default function Projects() {
