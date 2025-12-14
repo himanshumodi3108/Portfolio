@@ -52,6 +52,16 @@ export const blogPostsData = [
         category: "Cloud Computing",
         readTime: "6 min read",
         link: "#"
+      },
+      {
+        id: 6,
+        title: "IntelliShieldX: Redefining Application Security with AI-Powered Intelligence",
+        excerpt: "An in-depth look at how IntelliShieldX leverages AI, threat intelligence, and static analysis to detect vulnerabilities, auto-remediate risks, and generate verifiable security reports.",
+        date: "December 14, 2025",
+        dateSort: new Date("2025-12-14"),
+        category: "AI & Cybersecurity",
+        readTime: "8 min read",
+        link: "https://dev.to/himanshu_kumarmodi_8646f/intellishieldx-redefining-application-security-with-ai-powered-intelligence-1l34"
       }
 ];
 
