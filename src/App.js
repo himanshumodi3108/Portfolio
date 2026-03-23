@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect, Suspense, lazy } from "react";
 import { useTranslation } from "react-i18next";
+import { Analytics } from "@vercel/analytics/react"
 import "./styles/global.css";
 import Typed from "typed.js";
 import { projects as projectsData, certificates as certificatesData, programmingSkills, blogPostsData } from "./components/sections";
@@ -683,6 +684,7 @@ export default function App() {
         </button>
       )}
       </main>
+      <Analytics />
     </div>
   );
 }
