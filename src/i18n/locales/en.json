@@ -1,32 +1,32 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About me",
+    "about": "About Me",
     "resume": "Resume",
-    "contact": "Contact me",
+    "contact": "Contact",
     "blog": "Blog"
   },
   "hero": {
-    "greeting": "Hello, I'm",
-    "subtitle": "Skilled Full-Stack Developer with a passion for building scalable and secure web applications using modern frameworks and best coding practices.",
-    "hireMe": "Hire me",
+    "greeting": "Hi, I'm",
+    "subtitle": "SOC Analyst in Training | Salesforce QA Consultant at PwC India | Full Stack Developer",
+    "hireMe": "Hire Me",
     "downloadResume": "Download Resume"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Why Choose Me?",
-    "description": "I'm Himanshu Kumar Modi, a passionate Full-Stack Web Developer from Jharkhand, India. I'm currently pursuing a B.Tech in Computer Science and Engineering with specialization in Information Security at Vellore Institute of Technology. My enthusiasm for web development fuels my drive to craft innovative digital solutions, and I am constantly exploring new technologies to enhance my skill set.",
-    "description2": "I am committed to delivering high-quality, detail-oriented solutions that align with client goals and industry best practices. Whether you need a dedicated developer to bring your vision to life or a collaborator with a strong problem-solving mindset, I am eager to contribute to your project's success.",
-    "description3": "Explore my resume below to learn more about my skills and experience. Let's collaborate to turn your ideas into impactful digital solutions.",
-    "highlights": "Here are few highlights"
+    "subtitle": "SOC Analyst | Salesforce QA Consultant at PwC India | Full Stack Developer | Mumbai, India",
+    "description": "I am a cybersecurity professional transitioning into SOC Analyst and DFIR roles, with hands-on experience investigating real-world malware infections, detecting credential theft, and writing Splunk detection rules. Google Cybersecurity Certified, ISC2 Certified in Cybersecurity, and currently pursuing BTL1.",
+    "description2": "As a Full Stack Developer with MERN Stack and Salesforce experience, I bring a unique perspective — I understand how systems are built and how they are attacked. This dual background makes me effective in Application Security, DevSecOps, and blue team environments.",
+    "description3": "Currently building my cybersecurity portfolio through daily hands-on lab work: analyzing real malware PCAPs, mapping attacker behavior to MITRE ATT&CK, and writing detection rules that would catch these threats in a production SIEM.",
+    "highlights": "What I Do"
   },
   "resume": {
     "title": "Resume",
-    "subtitle": "My formal details"
+    "subtitle": "Education, Experience, Skills & Projects"
   },
   "contact": {
     "title": "Contact Me",
-    "subtitle": "Get In Touch",
+    "subtitle": "Open to SOC Analyst, DFIR, and Full Stack Developer roles",
     "name": "Name",
     "email": "Email",
     "mobile": "Mobile",
@@ -35,24 +35,23 @@
     "send": "Send Message",
     "sending": "Sending...",
     "success": "Message sent successfully! I'll get back to you soon.",
-    "error": "Failed to send message. Please try again later."
-  },
-  "testimonials": {
-    "title": "Testimonials",
-    "subtitle": "What People Say About Me"
+    "error": "Failed to send message. Please try again or email directly."
   },
   "blog": {
-    "title": "Blog",
-    "subtitle": "Latest Articles & Thoughts",
+    "title": "Blog & Write-ups",
+    "subtitle": "Security investigations, dev articles, and technical write-ups",
     "readMore": "Read More",
     "seeMore": "See More",
     "seeLess": "See Less"
   },
   "footer": {
-    "copyright": "© 2025 Himanshu Kumar Modi"
+    "copyright": "© 2026 Himanshu Kumar Modi — SOC Analyst | Full Stack Developer"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What people say about working with me"
   },
   "social": {
-    "shareLabel": "Share Portfolio:"
+    "shareLabel": "Share this portfolio:"
   }
 }
-

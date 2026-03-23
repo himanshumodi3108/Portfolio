@@ -20,6 +20,10 @@ i18n
     interpolation: {
       escapeValue: false
     },
+    // Required for CRA: without this, useTranslation() suspends with no <Suspense> above <App> → blank white screen
+    react: {
+      useSuspense: false,
+    },
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage']

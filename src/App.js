@@ -189,14 +189,19 @@ export default function App() {
 
   // Typed.js effect
   useEffect(() => {
+    if (!el.current) return;
     const typed = new Typed(el.current, {
       strings: [
-        "Enthusiastic Dev 😎",
-        "Full-Stack Developer💻",
-        "Cyber Security Enthusiast 👨‍💻",
+        "SOC Analyst 🛡️",
+        "DFIR Investigator 🔍",
+        "Threat Hunter 🎯",
+        "Full-Stack Developer 💻",
+        "Salesforce Developer 💻",
+        "Salesforce Administrator 💻",
+        "Salesforce QA Consultant 💻",
+        "Cyber Security Professional 👨‍💻",
         "MERN Stack Developer 💻",
-        "AWS Cloud Practitioner 👨‍💻",
-        "Data Analyst 💻",
+        "AWS Cloud Practitioner ☁️",
       ],
       startDelay: 0,
       typeSpeed: 80,
@@ -234,6 +239,8 @@ export default function App() {
     SetAllFalse();
     function1(state1);
   }
+
+  
   
   return (
     <div className="App">
@@ -326,18 +333,40 @@ export default function App() {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="d-flex flex-column justify-content-center Im-text-section">
               <div className="mx-2 nav-items yo" role="list" aria-label="Social media links">
-                <a href="https://github.com/himanshumodi3108/" target="_blank" rel="noreferrer" aria-label="Visit GitHub profile">
+                <a 
+                  href="https://github.com/himanshumodi3108/" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  aria-label="Visit GitHub profile"
+                  title="GitHub profile"
+                >
                   <i className="fa fa-github mx-2" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/himanshumodi3108/cybersec-portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Visit Cybersecurity Portfolio"
+                  title="Cybersecurity Portfolio"
+                >
+                  <i className="fa fa-shield mx-2" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Visit LinkedIn profile"
+                  title="LinkedIn profile"
                 >
                   <i className="fa fa-linkedin mx-2" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.instagram.com/modi4520/" target="_blank" rel="noreferrer" aria-label="Visit Instagram profile">
+                <a 
+                  href="https://www.instagram.com/modi4520/" 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  aria-label="Visit Instagram profile"
+                  title="Instagram profile"
+                >
                   <i className="fa fa-instagram mx-2" aria-hidden="true"></i>
                 </a>
                 <a
@@ -345,6 +374,7 @@ export default function App() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Visit Facebook profile"
+                  title="Facebook profile"
                 >
                   <i className="fa fa-facebook mx-2" aria-hidden="true"></i>
                 </a>
@@ -352,7 +382,8 @@ export default function App() {
                   href="https://x.com/Himansh93945818"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="Visit Twitter profile"
+                  aria-label="Visit X profile"
+                  title="X profile"
                 >
                   <i className="fa fa-twitter mx-2" aria-hidden="true"></i>
                 </a>
@@ -438,12 +469,12 @@ export default function App() {
                 <span className="few-text">{t('about.highlights')}</span>
                 <span className="few-list">
                   <ul>
-                    <li>Full Stack Developer</li>
-                    <li>MERN Stack Developer</li>
-                    <li>Cyber Security Enthusiast</li>
+                    <li>SOC Analyst — network forensics, malware analysis, IOC extraction</li>
+                    <li>DFIR Investigator — credential theft detection, MITRE ATT&CK mapping</li>
+                    <li>Full Stack Developer — MERN Stack, React, Node.js</li>
                     <li>AWS Certified Cloud Practitioner</li>
-                    <li>Data Analyst</li>
-                    <li>Machine Learning Enthusiast</li>
+                    <li>Salesforce Developer — Apex, LWC, Flow Builder</li>
+                    <li>Data Analyst — Power BI, SQL, Python</li>
                   </ul>
                 </span>
               </span>
@@ -584,24 +615,56 @@ export default function App() {
           {t('footer.copyright')}
         </span>
         <div className="mx-2 footer-nav-items yo" role="list" aria-label="Social media links">
-          <a href="https://github.com/himanshumodi3108/" target="_blank" rel="noreferrer" aria-label="Visit GitHub profile">
+          <a 
+            href="https://github.com/himanshumodi3108/" 
+            target="_blank" 
+            rel="noreferrer" 
+            aria-label="Visit GitHub profile"
+            title="GitHub profile"
+          >
             <i className="fa fa-github mx-4" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://github.com/himanshumodi3108/cybersec-portfolio"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Cybersecurity Portfolio"
+            title="Cybersecurity Portfolio"
+          >
+            <i className="fa fa-shield mx-2" aria-hidden="true"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/himanshu-kumar-modi-063b88239/"
             target="_blank"
             rel="noreferrer"
             aria-label="Visit LinkedIn profile"
+            title="LinkedIn profile"
           >
             <i className="fa fa-linkedin mx-4" aria-hidden="true"></i>
           </a>
-          <a href="https://www.instagram.com/modi4520/" target="_blank" rel="noreferrer" aria-label="Visit Instagram profile">
+          <a 
+            href="https://www.instagram.com/modi4520/" 
+            target="_blank" rel="noreferrer" 
+            aria-label="Visit Instagram profile"
+            title="Instagram profile"
+          >
             <i className="fa fa-instagram mx-4" aria-hidden="true"></i>
           </a>
-          <a href="https://www.facebook.com/himanshu.modi.35" target="_blank" rel="noreferrer" aria-label="Visit Facebook profile">
+          <a 
+            href="https://www.facebook.com/himanshu.modi.35" 
+            target="_blank" rel="noreferrer" 
+            aria-label="Visit Facebook profile"
+            title="Facebook profile"
+          >
             <i className="fa fa-facebook mx-4" aria-hidden="true"></i>
           </a>
-          <a href="https://x.com/Himansh93945818" target="_blank" rel="noreferrer" aria-label="Visit Twitter profile">
+          <a 
+            href="https://x.com/Himansh93945818" 
+            target="_blank" 
+            rel="noreferrer" 
+            aria-label="Visit X profile"
+            title="X profile"
+          >
             <i className="fa fa-twitter mx-4" aria-hidden="true"></i>
           </a>
         </div>

@@ -11,7 +11,7 @@ export default function Education() {
             </span>
             <span className="institute-degree">
               B. Tech in Computer Science and Engineering with Specialization in
-              Information Security | CGPA - 8.89{" "}
+              Information Security | CGPA - 8.90{" "}
             </span>
           </div>{" "}
           <div>
