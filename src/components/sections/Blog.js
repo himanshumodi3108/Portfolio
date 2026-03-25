@@ -4,7 +4,7 @@ import "./Blog.css";
 
 export const blogPostsData = [
     {
-      id: 10,
+      id: 3,
       title: "Catching Trickbot in the Act — Live Credential Theft via HTTP POST",
       excerpt: "How I analyzed a Trickbot infostealer PCAP and found 5 compromised accounts in plaintext — Google, Facebook, and Yahoo credentials exfiltrated in 96 seconds. Includes Splunk detection rules.",
       date: "March 22, 2026",
@@ -16,7 +16,7 @@ export const blogPostsData = [
       devtoLink: "https://dev.to/himanshu_kumarmodi_8646f/catching-trickbot-in-the-act-live-credential-theft-via-http-post-dje",       // update after publishing
     },
     {
-      id: 9,
+      id: 2,
       title: "Ursnif Malware — Reconstructing a 6-Stage Infection Chain from a PCAP",
       excerpt: "A walkthrough of my first real malware PCAP investigation — how Ursnif used .avi file extensions to disguise DLL payloads, TLS C2 beaconing, and how I mapped the full attack to MITRE ATT&CK.",
       date: "March 21, 2026",
@@ -28,7 +28,7 @@ export const blogPostsData = [
       devtoLink: "https://dev.to/himanshu_kumarmodi_8646f/ursnif-malware-reconstructing-a-6-stage-infection-chain-from-a-pcap-1n8d",       // update after publishing
     },
     {
-      id: 6,
+      id: 1,
       title: "IntelliShieldX: Redefining Application Security with AI-Powered Intelligence",
       excerpt: "An in-depth look at how IntelliShieldX leverages AI, threat intelligence, and static analysis to detect vulnerabilities, auto-remediate risks, and generate verifiable security reports.",
       date: "December 14, 2025",
@@ -37,36 +37,6 @@ export const blogPostsData = [
       readTime: "8 min read",
       link: "https://dev.to/himanshu_kumarmodi_8646f/intellishieldx-redefining-application-security-with-ai-powered-intelligence-1l34",
       devtoLink: "https://dev.to/himanshu_kumarmodi_8646f/intellishieldx-redefining-application-security-with-ai-powered-intelligence-1l34",
-    },
-    {
-      id: 1,
-      title: "Getting Started with MERN Stack Development",
-      excerpt: "A comprehensive guide to building full-stack applications using MongoDB, Express, React, and Node.js.",
-      date: "January 15, 2025",
-      dateSort: new Date("2025-01-15"),
-      category: "Web Development",
-      readTime: "5 min read",
-      link: "#",
-    },
-    {
-      id: 2,
-      title: "Best Practices for React Performance Optimization",
-      excerpt: "Learn how to optimize your React applications for better performance and user experience.",
-      date: "January 10, 2025",
-      dateSort: new Date("2025-01-10"),
-      category: "React",
-      readTime: "7 min read",
-      link: "#",
-    },
-    {
-      id: 3,
-      title: "Understanding AWS Cloud Services",
-      excerpt: "An overview of essential AWS services for cloud practitioners and developers.",
-      date: "January 5, 2025",
-      dateSort: new Date("2025-01-05"),
-      category: "Cloud Computing",
-      readTime: "6 min read",
-      link: "#",
     },
 ];
 
