@@ -4,6 +4,18 @@ import "./Blog.css";
 
 export const blogPostsData = [
     {
+      id: 4,
+      title: "Emotet + Cobalt Strike — Dissecting a Multi-Stage Attack in Wireshark",
+      excerpt: "How I identified Cobalt Strike C2 servers, decoded a spoofed Host header, and found a malspam campaign — all from a single PCAP",
+      date: "April 04, 2026",
+      dateSort: new Date("2026-04-04"),
+      category: "Security",
+      readTime: "4 min read",
+      link: "https://github.com/himanshumodi3108/cybersec-portfolio/tree/main/03-thm-carnage",       // update after publishing
+      mediumLink: "https://medium.com/@himanshukumar.modi2021/emotet-cobalt-strike-dissecting-a-multi-stage-attack-in-wireshark-5c8df1fd54d5", // update after publishing
+      devtoLink: "https://dev.to/himanshu_kumarmodi_8646f/emotet-cobalt-strike-dissecting-a-multi-stage-attack-in-wireshark-3nn2",       // update after publishing
+    },
+    {
       id: 3,
       title: "Catching Trickbot in the Act — Live Credential Theft via HTTP POST",
       excerpt: "How I analyzed a Trickbot infostealer PCAP and found 5 compromised accounts in plaintext — Google, Facebook, and Yahoo credentials exfiltrated in 96 seconds. Includes Splunk detection rules.",
